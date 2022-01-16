@@ -15,7 +15,9 @@ Install this tool using `pip`:
 
 ## Usage
 
-Usage instructions go here.
+    ulearn-scoring -c path/to/config.yaml -o path/to/result.csv
+    
+Example of config file is located at `tests/resources/config.yaml`
 
 ## Development
 
