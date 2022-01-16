@@ -24,4 +24,4 @@ class StudentScoresStorage(AbstractStudentScoresStorage):
         self._scores_storage[student] += score
 
     def get_all_scores(self) -> Iterable[StudentScores]:
-        yield from self._scores_storage.items()
+        yield from map(lambda item: StudentScores(*item), self._scores_storage.items())

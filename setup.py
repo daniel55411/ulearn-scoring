@@ -34,11 +34,15 @@ setup(
     install_requires=[
         'click>=8.0.1,<9.0.0',
         'pydantic_yaml[ruamel]>=0.6.0,<1.0.0',
-        'openpyxl>=3.0.0,<4.0.0',
+        'punq',
+        'ujson',
         'pydantic',
     ],
     extras_require={
-        'test': ['pytest']
+        'test': [
+            'pytest',
+            'pytest_mock',
+        ]
     },
     python_requires='>=3.6',
 )

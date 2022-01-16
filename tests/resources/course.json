@@ -1,0 +1,138 @@
+{
+  "course": {
+    "title": "course",
+    "units": [
+      {
+        "id": "1",
+        "title": "unit1",
+        "slides": [
+          {
+            "id": "1.1",
+            "title": "unit1.1",
+            "max_score": 5
+          }
+        ],
+        "additional_scores": []
+      },
+      {
+        "id": "2",
+        "title": "unit2",
+        "slides": [
+          {
+            "id": "2.1",
+            "title": "unit2.1",
+            "max_score": 2
+          },
+          {
+            "id": "2.2",
+            "title": "unit2.2",
+            "max_score": 2
+          }
+        ],
+        "additional_scores": []
+      },
+      {
+        "id": "3",
+        "title": "unit3",
+        "slides": [
+          {
+            "id": "3.1",
+            "title": "unit3.1",
+            "max_score": 2
+          }
+        ],
+        "additional_scores": []
+      }
+    ],
+    "scoring_groups": [
+      {
+        "id": "laboratory",
+        "abbreviation": "ЛЗ",
+        "name": "Лабораторные занятия"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "id": 1,
+      "Title": "group 1212"
+    }
+  ],
+  "students": [
+    {
+      "user_id": "1",
+      "groups": [
+        1
+      ],
+      "name": "student1",
+      "slides_scores": [
+        {
+          "slide_id": "1.1",
+          "score": 5
+        },
+        {
+          "slide_id": "2.1",
+          "score": 2
+        },
+        {
+          "slide_id": "2.2",
+          "score": 2
+        },
+        {
+          "slide_id": "3.1",
+          "score": 2
+        }
+      ]
+    },
+    {
+      "user_id": "2",
+      "groups": [
+        1
+      ],
+      "name": "student2",
+      "slides_scores": [
+        {
+          "slide_id": "1.1",
+          "score": 4
+        },
+        {
+          "slide_id": "2.1",
+          "score": 1
+        },
+        {
+          "slide_id": "2.2",
+          "score": 0
+        },
+        {
+          "slide_id": "3.1",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "user_id": "3",
+      "groups": [
+        1
+      ],
+      "name": "student3",
+      "slides_scores": [
+        {
+          "slide_id": "1.1",
+          "score": 5
+        },
+        {
+          "slide_id": "2.1",
+          "score": 0
+        },
+        {
+          "slide_id": "2.2",
+          "score": 2
+        },
+        {
+          "slide_id": "3.1",
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import pathlib
 from typing import Callable
 
 from ._config import StatementsConfig
-from ._storage import AbstractStudentScoresStorage
+from ._storages import AbstractStudentScoresStorage
 from ._writers import AbstractScoresWriter
 from ._readers import AbstractScoresReader
 
