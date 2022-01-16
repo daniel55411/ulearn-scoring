@@ -1,0 +1,5 @@
+version: 1.0.0
+
+statements:
+  - file: course.json
+    modules: ["unit1", "unit3"]
