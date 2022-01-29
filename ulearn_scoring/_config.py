@@ -25,5 +25,5 @@ class StatementsConfig(VersionedYamlModel):
     final_statement: Optional[FinalStatement] = None
 
     class Config:
-        min_version = '1.1.0'
+        min_version = '1.0.0'
         max_version = '2.0.0'
