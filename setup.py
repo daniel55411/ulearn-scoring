@@ -34,6 +34,7 @@ setup(
     install_requires=[
         'click>=8.0.1,<9.0.0',
         'pydantic_yaml[ruamel]>=0.6.0,<1.0.0',
+        'openpyxl>=3.0.0,<4.0.0',
         'punq',
         'ujson',
         'pydantic',

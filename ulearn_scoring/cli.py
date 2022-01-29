@@ -36,8 +36,8 @@ def cli(config: str, output: str):
     )
     try:
         config = StatementsConfig.parse_file(config)
-    except ValidationError:
-        click.echo('[X] Config format error')
+    except ValidationError as e:
+        click.echo(f'[X] Config format error: {e}')
         sys.exit(1)
 
     click.echo('[X] Start scoring')

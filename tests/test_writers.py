@@ -1,5 +1,6 @@
 import csv
 import pathlib
+from decimal import Decimal
 
 from ulearn_scoring._models import StudentScores
 from ulearn_scoring._writers import CsvScoresWriter
@@ -12,9 +13,9 @@ def test_csv_scores_writer(tmp_path: pathlib.Path):
     writer.write(
         file=testing_file,
         student_scores=[
-            StudentScores('ivan1', 1),
-            StudentScores('ivan2', 3),
-            StudentScores('ivan3', 2),
+            StudentScores('ivan1', Decimal(1)),
+            StudentScores('ivan2', Decimal(3)),
+            StudentScores('ivan3', Decimal(2)),
         ],
     )
 
