@@ -49,7 +49,7 @@ def test_scoring_service(
         scores_storage_factory=lambda: scores_storage_mock,
     )
     config = StatementsConfig(
-        version=SemVer('1.0.0'),
+        version=SemVer('1.1.0'),
         statements=[
             Statement(file=files[0], modules=['1', '2']),
             Statement(file=files[1], modules=['3']),
@@ -98,7 +98,7 @@ def test_scoring_service__final_statement(
         scores_storage_factory=lambda: scores_storage_mock,
     )
     config = StatementsConfig(
-        version=SemVer('1.0.0'),
+        version=SemVer('1.1.0'),
         statements=[],
         final_statement=FinalStatement(
             file=final_file,
